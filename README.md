@@ -61,64 +61,106 @@ Describe your data and the relationships between the data points. You can show t
 
 - GET/missions: Get a list of space missions, including titles, dates, and agency involvement.
 
-Response example:
-
 [
+
 {
+
 "id": 1,
+
 "mission_name": Artemis II
+
 "launch": 2025
+
 "crew": Jeremy Hanson
-}
+
+},
+
 ]
 
 - GET/missions/:id : Fetch detailed information about a specific mission, including participating astronauts and mission results.
 
 [
+
 {
+
 "id": 1,
+
 "mission_name": Artemis II
+
 "launch": 2025
+
 "astronaut": Jeremy Hanson
+
 "vehicle": SLS rocket and the Orion spacecraft
+
 "patch": Jeremy-Hansen's-patch-for-the-Artemis-II-mission
+
 "duration": 10 days
+
 "planet": Moon
+
 }
+
 ...
+
 ]
 
 - GET/astronauts: list of Canadian astronauts
 
   [
+  
   {
+
   "id": 1,
+
   "name":Jeremy Hanson
+
   "dob":
+
   "occupation": Fighter pilot in the royal canadian air force.
+
   "mission": Artemis II
+
   },
+  
   {
+
   "id": 2,
+
   "name":David Saint-Jacques
+
   "dob": January 6, 1970
+
   "occupation": Engineer, astrophysicist, family doctor
+
   "mission": Expedition 58/59
+
   }
+
   ...
+
   ]
 
 - POST/comments: Add a comment to a specific mission
 
 [
+
 {
+
 "id": 1
+
 "name":
+
 "comment":
+
 "date":
+
 }
+
 ...
+
 ]
+
 
 ## Roadmap
 
