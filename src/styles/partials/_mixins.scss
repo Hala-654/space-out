@@ -14,3 +14,15 @@
 @mixin box-sizing {
   box-sizing: border-box;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 200%;
+  }
+}

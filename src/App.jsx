@@ -1,11 +1,14 @@
+import { Route, Router, BrowserRouter } from "react-router-dom";
+
+import Header from "./components/Header/Header";
 import "./App.scss";
 
 function App() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
     </>
   );
 }
