@@ -2,6 +2,10 @@
 @use "./variables" as *;
 @use "./typography" as *;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 h1,
 h2,
 h3,

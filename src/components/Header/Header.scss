@@ -1,0 +1,47 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.header__background {
+  background-color: black;
+  background-image: url("./src//assets/images/ring-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem;
+  animation: linear 3s infinite alternate slidein;
+  &--text {
+    color: rgb(194, 195, 229);
+    font-family: "Franklin Gothic Medium";
+    opacity: 50%;
+  }
+}
+
+.header {
+  &__nav {
+    background-color: rgb(1, 1, 33);
+    border-bottom: 0.625rem double rgb(78, 6, 91);
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 2rem;
+    margin: 1.5rem;
+  }
+  &__link {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(222, 179, 175);
+  }
+  &__pages {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
