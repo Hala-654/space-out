@@ -9,13 +9,13 @@ function MissionCard({ mission }) {
     <div className="card">
       <div className="card__header">
         <div className="card__title-bar">
-          <img
+          {/* <img
             className="card__back_image"
             src=""
             onClick={() => {
               navigate("/");
-            }}
-          />
+            }} */}
+          {/* /> */}
           <h1 className="card__name">{mission.title}</h1>
         </div>
         <div className="card__header-section">

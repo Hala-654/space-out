@@ -9,6 +9,7 @@ const PORT = process.env.PORT;
 // Middleware for parsing JSON
 app.use(express.json());
 app.use(cors());
+app.use(express.static("data"));
 
 import missionRoutes from "./routes/missions.js";
 
