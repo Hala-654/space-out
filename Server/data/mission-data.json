@@ -5,7 +5,7 @@
     "launch": "2025",
     "astronaut": "Jeremy Hansen",
     "vehicle": "SLS rocket and the Orion spacecraft",
-    "patch": "patches/Jeremy-Hansen's-patch-Artemis-II-mission.jpg",
+    "patch": "/patches/Jeremy-Hansen's-patch-Artemis-II-mission.jpg",
     "duration": false,
     "planet": "Moon"
   },
@@ -15,7 +15,7 @@
     "launch": "2025",
     "astronaut": "Joshua Kutryk",
     "vehicle": "Atlas V rocket and the Starliner spacecraft",
-    "patch": "patches/Joshua-Kutryk's-personal-patch-Starliner-1.jpg",
+    "patch": "/patches/Joshua-Kutryk's-personal-patch-Starliner-1.jpg",
     "duration": false,
     "planet": "ISS"
   },
@@ -25,7 +25,7 @@
     "launch": "2018",
     "astronaut": "David Saint-Jacques",
     "vehicle": "Soyuz Spacecraft",
-    "patch": "patches/David-Saint-Jacques-patch-ex58/59.jpg",
+    "patch": "/patches/David-Saint-Jacques-patch-ex58/59.jpg",
     "duration": "204 days",
     "planet": "ISS"
   },
@@ -35,7 +35,7 @@
     "launch": "2012",
     "astronaut": "Chris Hadfield",
     "vehicle": "Soyuz Spacecraft",
-    "patch": "patches/chris-hadfield-patch-ex34/35.jpg",
+    "patch": "/patches/chris-hadfield-patch-ex34/35.jpg",
     "duration": "146 days",
     "planet": "ISS"
   },
@@ -45,7 +45,7 @@
     "launch": "2009",
     "astronaut": "Robert Thirsk",
     "vehicle": "Soyuz Spacecraft",
-    "patch": "patches/Robert-Thirsk-patch-exp20/21.png",
+    "patch": "/patches/Robert-Thirsk-patch-exp20/21.png",
     "duration": "188 days",
     "planet": "ISS"
   },
@@ -55,7 +55,7 @@
     "launch": "2009",
     "astronaut": "Julie Payette",
     "vehicle": "Space Shuttle Endeavour",
-    "patch": "patches/Julie-Payette-sts127-patch.jpg",
+    "patch": "/patches/Julie-Payette-sts127-patch.jpg",
     "duration": "16 days",
     "planet": "ISS"
   },
@@ -65,7 +65,7 @@
     "launch": "2007",
     "astronaut": "Dave Williams",
     "vehicle": "Space Shuttle Endeavour",
-    "patch": "patches/Dave-Williams-sts-118-patch.png",
+    "patch": "/patches/Dave-Williams-sts-118-patch.png",
     "duration": "13 days",
     "planet": "ISS"
   },
@@ -75,7 +75,7 @@
     "launch": "2006",
     "astronaut": "Steve MacLean",
     "vehicle": "Space Shuttle Atlantis",
-    "patch": "patches/Steve-MacLean-sts-115-patch.png",
+    "patch": "/patches/Steve-MacLean-sts-115-patch.png",
     "duration": "12 days",
     "planet": "ISS"
   },
@@ -85,7 +85,7 @@
     "launch": "2001",
     "astronaut": "Chris Hadfield",
     "vehicle": "Space Shuttle Endeavour",
-    "patch": "patches/Chris-Hadfield-sts-100-patch.png",
+    "patch": "/patches/Chris-Hadfield-sts-100-patch.png",
     "duration": "12 days",
     "planet": "ISS"
   },
@@ -95,7 +95,7 @@
     "launch": "2000",
     "astronaut": "Marc Garneau",
     "vehicle": "Space Shuttle Endeavour",
-    "patch": "patches/Marc-Garneau-sts97-patch.jpg",
+    "patch": "/patches/Marc-Garneau-sts97-patch.jpg",
     "duration": "11 days",
     "planet": "ISS"
   },
@@ -105,7 +105,7 @@
     "launch": "1999",
     "astronaut": "Julie Payette",
     "vehicle": "Space Shuttle Discovery",
-    "patch": "patches/Julie-Payette-sts-96-patch.png",
+    "patch": "/patches/Julie-Payette-sts-96-patch.png",
     "duration": "10 days",
     "planet": "ISS"
   },
@@ -115,7 +115,7 @@
     "launch": "1998",
     "astronaut": "Dave Williams",
     "vehicle": "Space Shuttle Columbia",
-    "patch": "patches/Dave-Williams-sts-090-patch.png",
+    "patch": "/patches/Dave-Williams-sts-090-patch.png",
     "duration": "16 days",
     "planet": "Earth orbit"
   },
@@ -125,7 +125,7 @@
     "launch": "1997",
     "astronaut": "Bjarni Tryggvason",
     "vehicle": "Space Shuttle Discovery",
-    "patch": "patches/Bjarni-Tryggvason-sts-85-patch.png",
+    "patch": "/patches/Bjarni-Tryggvason-sts-85-patch.png",
     "duration": "12 days",
     "planet": "Earth orbit"
   },
@@ -135,7 +135,7 @@
     "launch": "1996",
     "astronaut": "Robert Thirsk",
     "vehicle": "Space Shuttle Columbia",
-    "patch": "patches/Robert0-Thirsk-sts-78-patch.png",
+    "patch": "/patches/Robert0-Thirsk-sts-78-patch.png",
     "duration": "17 days",
     "planet": "Earth orbit"
   },
@@ -145,7 +145,7 @@
     "launch": "1996",
     "astronaut": "Marc Garneau",
     "vehicle": "Space Shuttle Endeavour",
-    "patch": "patches/Marc-Garneau-sts77-patch.jpg",
+    "patch": "/patches/Marc-Garneau-sts77-patch.jpg",
     "duration": "10 days",
     "planet": "Earth orbit"
   },
@@ -155,7 +155,7 @@
     "launch": "1995",
     "astronaut": "Chris Hadfield",
     "vehicle": "Space Shuttle Atlantis",
-    "patch": "patches/Chris-Hadfield-sts-074-patch.png",
+    "patch": "/patches/Chris-Hadfield-sts-074-patch.png",
     "duration": "8 days",
     "planet": "Shuttle-to-Mir"
   },
@@ -165,7 +165,7 @@
     "launch": "1992",
     "astronaut": "Steven MacLean",
     "vehicle": "Space Shuttle Columbia",
-    "patch": "patches/Steve-MacLean-sts-052-patch.png",
+    "patch": "/patches/Steve-MacLean-sts-052-patch.png",
     "duration": "10 days",
     "planet": "Earth orbit"
   },
@@ -175,7 +175,7 @@
     "launch": "1992",
     "astronaut": "Roberta Bondar",
     "vehicle": "Space Shuttle Discovery",
-    "patch": "patches/Roberta-Bondar-sts-42-patch.png",
+    "patch": "/patches/Roberta-Bondar-sts-42-patch.png",
     "duration": "8 days",
     "planet": "Earth orbit"
   },
@@ -185,7 +185,7 @@
     "launch": "1984",
     "astronaut": "Marc Garneau",
     "vehicle": "Space Shuttle Challenger",
-    "patch": "patches/Marc-Garneau-sts-41G-patch.png",
+    "patch": "/patches/Marc-Garneau-sts-41G-patch.png",
     "duration": "8 days",
     "planet": "Earth orbit"
   }
