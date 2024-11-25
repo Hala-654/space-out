@@ -2,6 +2,7 @@ import { Route, Router, BrowserRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import MissionCard from "./components/MissionCard/MissionCard";
 import Header from "./components/Header/Header";
+import HomePage from "./pages/HomePage/HomePage";
 import "./App.scss";
 
 const BASE_URL = import.meta.env.VITE_API_URL;
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <HomePage />
         <div>
           {missions.map((mission) => (
             <MissionCard key={mission.id} mission={mission} />

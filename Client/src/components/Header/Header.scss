@@ -5,7 +5,7 @@
 
 .header__background {
   background-color: black;
-  background-image: url("./src//assets/images/ring-sky.jpg");
+  background-image: url("./src/assets/images/ring-sky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,9 +13,9 @@
   // animation: linear 3s infinite alternate slidein;
   &--text {
     color: rgb(194, 195, 229);
-    font-family: "Courier New", Courier, monospace;
-    opacity: 50%;
-    font-size: 3rem;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    opacity: 30%;
+    font-size: 2rem;
   }
 }
 
@@ -33,6 +33,7 @@
   &__logo {
     font-size: 2rem;
     margin: 1.5rem;
+    font-family: "Bokor", system-ui;
   }
   &__link {
     list-style-type: none;
