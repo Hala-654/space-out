@@ -16,7 +16,7 @@ function Header() {
           </div>
           <div className="header__pages">
             <div className="header__pages">
-              <Link className="header__link" to="/">
+              <Link className="header__link" to="/missions">
                 Missions
               </Link>
             </div>
