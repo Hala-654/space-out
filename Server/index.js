@@ -18,13 +18,7 @@ app.use("/patches", express.static(path.join(__dirname, "data", "patches")));
 
 // Middleware for parsing JSON
 app.use(express.json());
-// Configure CORS to allow requests from your client
-const corsOptions = {
-  origin: "http://localhost:5173", // Replace with your client's URL
-  optionsSuccessStatus: 200,
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 import missionRoutes from "./routes/missions.js";
 
