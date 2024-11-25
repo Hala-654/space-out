@@ -25,6 +25,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
 import missionRoutes from "./routes/missions.js";
 
 // Basic Route
