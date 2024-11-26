@@ -21,11 +21,11 @@ function App() {
     <>
       <BrowserRouter>
         <HomePage />
-        <div>
+        {/* <div>
           {missions.map((mission) => (
             <MissionCard key={mission.id} mission={mission} />
           ))}
-        </div>
+        </div> */}
       </BrowserRouter>
     </>
   );
