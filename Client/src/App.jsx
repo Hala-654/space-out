@@ -1,31 +1,18 @@
-import { Route, Router, BrowserRouter } from "react-router-dom";
-import React, { useState, useEffect } from "react";
-import MissionCard from "./components/MissionCard/MissionCard";
-import Header from "./components/Header/Header";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
+import MissionsPage from "./pages/MissionsPage/MissionsPage";
 import "./App.scss";
 
 const BASE_URL = import.meta.env.VITE_API_URL;
 
 function App() {
-  const [missions, setMissions] = useState([]);
-
-  useEffect(() => {
-    fetch(`${BASE_URL}/missions`)
-      .then((response) => response.json())
-      .then((data) => setMissions(data))
-      .catch((error) => console.error("Error fetching missions:", error));
-  }, []);
-
   return (
     <>
       <BrowserRouter>
-        <HomePage />
-        {/* <div>
-          {missions.map((mission) => (
-            <MissionCard key={mission.id} mission={mission} />
-          ))}
-        </div> */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/missions" element={<MissionsPage />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
