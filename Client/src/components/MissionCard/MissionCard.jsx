@@ -23,7 +23,6 @@ function MissionCard({ mission }) {
             alt={`${mission.title} patch`}
           />
           <p className="card__content--astronaut">{mission.astronaut}</p>
-          {/* Add more mission details here as needed */}
         </div>
       </div>
     </div>
