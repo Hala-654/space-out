@@ -5,9 +5,16 @@ $desktop-breakpoint: 80rem;
 // colors
 $primary-black-title: #13182c;
 
-// styling
+// card styling
 $card-bg-color: #ffffff;
 $card-shadow-color: rgba(0, 0, 0, 0.1);
 $text-color: #333;
 $padding: 1.5rem;
-$border-radius: 8px;
+$border-radius: 0.5rem;
+
+// header styling
+$header-bg-color: black;
+$header-border-color: black;
+$header-text-color: rgb(194, 195, 229);
+$header-font-family: "Edu AU VIC WA NT Pre";
+$pages-bg-color: rgb(97, 132, 163);
