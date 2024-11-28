@@ -31,7 +31,7 @@ function HomePage() {
               have represented Canada in space exploration.
             </p>
           </div>
-          <div className="home__description">
+          <div className="home__description--light">
             <h2 className="home__subtitle">Mission Collection</h2>
             <ul className="home__list">
               <li className="home__list--point">Artemis Program</li>
@@ -52,7 +52,7 @@ function HomePage() {
               from 1984 to the upcoming Artemis II mission in 2025.
             </p>
           </div>
-          <div className="home__description">
+          <div className="home__description--light">
             <h2 className="home__subtitle">
               Open Science and Data Accessibility
             </h2>
