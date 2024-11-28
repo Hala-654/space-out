@@ -45,9 +45,12 @@
     font-family: $header-font-family;
   }
   &__link {
-    list-style-type: none;
-    text-decoration: none;
     color: $header-text-color;
+    font-weight: 600;
+    font-size: 3rem;
+    @include tablet {
+      font-size: 4rem;
+    }
   }
   &__pages {
     margin: 1rem;
@@ -57,7 +60,7 @@
     align-items: baseline;
     width: 100%;
     @include desktop {
-      width: 70%;
+      width: 60%;
     }
     &--link {
       color: $pages-text-color;
@@ -65,9 +68,16 @@
       background-color: $pages-bg-color;
       border-radius: 0.5rem;
       width: 100%;
-      height: 2.2rem;
+      height: 1.8rem;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.7rem;
+      @include tablet {
+        font-size: 2rem;
+        height: 2.2rem;
+      }
+      @include desktop {
+        font-weight: 500;
+      }
     }
   }
 }
