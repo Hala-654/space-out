@@ -16,17 +16,17 @@ function Header() {
           </div>
           <div className="header__pages">
             <div className="header__pages">
-              <Link className="header__link" to="/missions">
+              <Link className="header__pages--link" to="/missions">
                 Missions
               </Link>
             </div>
             <div className="header__pages">
-              <Link className="header__link" to="/">
+              <Link className="header__pages--link" to="/">
                 Astronauts
               </Link>
             </div>
             <div className="header__pages">
-              <Link className="header__link" to="/">
+              <Link className="header__pages--link" to="/">
                 Collaborations
               </Link>
             </div>
