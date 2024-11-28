@@ -31,7 +31,7 @@ function HomePage() {
               have represented Canada in space exploration.
             </p>
           </div>
-          <div className="home__description">
+          <div className="home__description--light">
             <h2 className="home__subtitle">Mission Collection</h2>
             <ul className="home__list">
               <li className="home__list--point">Artemis Program</li>
@@ -51,6 +51,59 @@ function HomePage() {
               Canada's space exploration journey, featuring missions spanning
               from 1984 to the upcoming Artemis II mission in 2025.
             </p>
+          </div>
+          <div className="home__description--light">
+            <h2 className="home__subtitle">
+              Open Science and Data Accessibility
+            </h2>
+            <p className="home__text">
+              The Canadian Space Agency (CSA) is dedicated to open science
+              principles, making scientific data and publications freely
+              available to researchers, students, industries, and the public.
+              Type of data available:
+            </p>
+            <ul className="home__list">
+              <li className="home__list--point">
+                <a
+                  href="https://donnees-data.asc-csa.gc.ca/dataset/?project=atmospheric_sci"
+                  target="_blank"
+                >
+                  Atmospheric sciences
+                </a>
+              </li>
+              <li className="home__list--point">
+                <a
+                  href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_environment"
+                  target="_blank"
+                >
+                  Space environment/Space weather
+                </a>
+              </li>
+              <li className="home__list--point">
+                <a
+                  href="https://donnees-data.asc-csa.gc.ca/dataset/?project=earth_observation"
+                  target="_blank"
+                >
+                  Earth observation
+                </a>
+              </li>
+              <li className="home__list--point">
+                <a
+                  href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_astronomy"
+                  target="_blank"
+                >
+                  Space astronomy
+                </a>
+              </li>
+              <li className="home__list--point">
+                <a
+                  href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_exploration"
+                  target="_blank"
+                >
+                  Space exploration
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

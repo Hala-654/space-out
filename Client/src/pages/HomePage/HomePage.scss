@@ -1,16 +1,19 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
 .home-wrapper {
-  background-color: rgb(241, 241, 241);
-  min-height: 100vh;
+  background-color: $sec-bg-color;
   overflow-x: hidden;
 }
 
 .home {
   &__content {
-    margin: 0 auto;
-    padding: 2rem;
+    background-color: $main-bg-color;
     text-align: center;
   }
   &__description {
+    padding: 2rem;
     opacity: 0;
     transform: translateY(3rem);
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -19,39 +22,78 @@
       opacity: 1;
       transform: translateY(3rem);
     }
+    &--light {
+      padding: 2rem;
+      background-color: $sec-bg-color;
+      width: 100%;
+    }
   }
   &__title {
     font-size: 2.5rem;
-    color: #333;
+    color: $header-text-color;
     margin-bottom: 2rem;
+    font-family: $header-font-family;
+    font-weight: 500;
+    @include desktop {
+      font-size: 3.5rem;
+    }
   }
   &__subtitle {
     font-size: 1.8rem;
-    color: #555;
+    color: $pages-bg-color;
     margin-bottom: 1rem;
+    font-family: $header-font-family;
+    font-weight: 500;
+    @include tablet {
+      font-size: 2.2rem;
+    }
+    @include desktop {
+      font-size: 3rem;
+    }
   }
   &__text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.6;
-    color: #666;
+    color: $pages-bg-color;
     text-align: left;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include desktop {
+      font-size: 2rem;
+    }
   }
   &__list {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &--point {
       margin: 0.5rem;
       padding: 0.5rem 0;
       transition: background-color 0.3s ease, transform 0.3s ease;
       cursor: pointer;
-      background-color: rgb(237, 213, 240);
+      background-color: $pages-text-color;
       border-radius: 1rem;
+      width: 60%;
+      list-style-type: none;
+      text-decoration: none;
+      color: $main-bg-color;
 
       &:hover {
         background-color: rgba(0, 0, 0, 0.05);
         transform: translateX(0.3125rem);
+      }
+      @include tablet {
+        font-size: 1.4rem;
+        max-width: 58%;
+      }
+      @include desktop {
+        font-size: 1.8rem;
+        width: 50%;
       }
     }
   }
