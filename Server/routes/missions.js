@@ -18,6 +18,7 @@ router.get("/", (req, res) => {
     id: mission.id,
     title: mission.mission_name,
     launch: mission.launch,
+    astronaut: mission.astronaut,
     image: mission.patch,
   }));
 
