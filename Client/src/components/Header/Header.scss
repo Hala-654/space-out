@@ -4,15 +4,21 @@
 
 .header__background {
   background-color: $header-bg-color;
-  background-image: url("./src/assets/images/ring-sky.jpg");
+  background-image: url("./src/assets/images/Crab Nebula.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10rem;
+  padding: 18rem;
+  @include tablet {
+    padding: 20rem;
+  }
+  @include desktop {
+    padding: 23rem;
+  }
   &--text {
     color: $header-text-color;
     font-family: $header-font-family;
-    opacity: 30%;
+    opacity: 50%;
     font-size: 2rem;
   }
 }
@@ -24,12 +30,17 @@
   }
   &__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+    }
   }
 
   &__logo {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 1.5rem;
     font-family: $header-font-family;
   }
@@ -44,14 +55,19 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: baseline;
-    width: 70%;
+    width: 100%;
+    @include desktop {
+      width: 70%;
+    }
     &--link {
-      color: $header-text-color;
+      color: $pages-text-color;
       font-family: $header-font-family;
       background-color: $pages-bg-color;
-      border-radius: 0.7rem;
+      border-radius: 0.5rem;
       width: 100%;
+      height: 2.2rem;
       text-align: center;
+      font-size: 2rem;
     }
   }
 }
