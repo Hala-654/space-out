@@ -1,5 +1,4 @@
 import "./MissionCard.scss";
-// import backImage from "../../assets/Icons/arrow_back-24px.svg";
 import { useNavigate } from "react-router-dom";
 
 function MissionCard({ mission }) {
@@ -11,13 +10,6 @@ function MissionCard({ mission }) {
       <div className="card">
         <div className="card__header">
           <div className="card__title-bar">
-            {/* <img
-            className="card__back_image"
-            src=""
-            onClick={() => {
-              navigate("/");
-            }} */}
-            {/* /> */}
             <h1 className="card__name">{mission.title}</h1>
           </div>
           <div className="card__header-section">
@@ -30,6 +22,7 @@ function MissionCard({ mission }) {
             src={`${BASE_URL}${mission.image}`}
             alt={`${mission.title} patch`}
           />
+          <p className="card__content--astronaut">{mission.astronaut}</p>
           {/* Add more mission details here as needed */}
         </div>
       </div>
