@@ -1,0 +1,49 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.astronauts-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+  background-color: $third-bg-color;
+}
+.astronaut-card {
+  width: 18.75rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .astronaut-info {
+    padding: 1rem;
+  }
+}
+.astronaut {
+  &__name {
+    font-family: $header-font-family;
+    font-weight: 450;
+    padding: 0.5rem 0;
+  }
+  &__details {
+    margin: 0.5rem 0;
+    color: $text-color;
+  }
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.mission-patch {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+}
