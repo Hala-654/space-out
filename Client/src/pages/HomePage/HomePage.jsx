@@ -34,9 +34,14 @@ function HomePage() {
           </div>
           <div className="home__description--light">
             <h2 className="home__subtitle">Mission Collection</h2>
-            <Link className="home__missions--link" to="/missions">
-              Canadian Astronaut Missions (1984-2025)
-            </Link>
+            <div className="home__links">
+              <Link className="home__link" to="/missions">
+                Canadian Missions (1984 - 2025)
+              </Link>
+              <Link className="home__link" to="/astronauts">
+                Canadian Astronauts
+              </Link>
+            </div>
           </div>
           <div className="home__description">
             <h2 className="home__subtitle">Missions Represented</h2>
