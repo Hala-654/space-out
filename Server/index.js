@@ -15,15 +15,20 @@ const __dirname = path.dirname(__filename);
 app.use(express.static("data"));
 // Serve the "patches" folder statically
 app.use("/patches", express.static(path.join(__dirname, "data", "patches")));
+app.use(
+  "/astronauts",
+  express.static(path.join(__dirname, "data", "astronauts"))
+);
 
 // Middleware for parsing JSON
 app.use(express.json());
 app.use(cors());
 
 import missionRoutes from "./routes/missions.js";
-
+import astronautsRoutes from "./routes/astronauts.js";
 // Basic Route
 app.use("/missions", missionRoutes);
+app.use("/astronauts", astronautsRoutes);
 
 // Start the server
 app.listen(PORT, () => {
