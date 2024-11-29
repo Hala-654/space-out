@@ -22,14 +22,34 @@ function AstronautsPage() {
       <div className="astronauts-page">
         {astronauts.map((astronaut) => (
           <div key={astronaut.id} className="astronaut-card">
-            <img src={`${BASE_URL}${astronaut.image}`} alt={astronaut.id} />
+            <img
+              className="astronaut__img"
+              src={`${BASE_URL}${astronaut.image}`}
+              alt={astronaut.id}
+            />
             <div className="astronaut-info">
-              <h2>{astronaut.astronaut}</h2>
-              <p>Date of Birth: {astronaut.dob}</p>
-              <p>From: {astronaut.from}</p>
-              <p>Background: {astronaut.background}</p>
-              <p>Missions: {astronaut.missions}</p>
-              <p>Destination: {astronaut.planet}</p>
+              <h2 className="astronaut__name">{astronaut.astronaut}</h2>
+              <p className="astronaut__details">
+                <strong>Date of Birth:</strong> {astronaut.dob}
+              </p>
+              <p className="astronaut__details">
+                <strong>From:</strong> {astronaut.from}
+              </p>
+              <p className="astronaut__details">
+                <strong>Background:</strong> {astronaut.background}
+              </p>
+              <p className="astronaut__details">
+                <strong>Missions:</strong> {astronaut.missions}
+              </p>
+              <p className="astronaut__details">
+                <strong>Destination:</strong> {astronaut.planet}
+              </p>
+              <p className="astronaut__link">
+                <strong>Learn more: </strong>
+                <a href={astronaut.details} target="_blank">
+                  {astronaut.astronaut}
+                </a>
+              </p>
               <img
                 className="mission-patch"
                 src={`${BASE_URL}${astronaut.patch}`}
