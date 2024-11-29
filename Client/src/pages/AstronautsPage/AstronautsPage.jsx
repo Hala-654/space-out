@@ -22,15 +22,20 @@ function AstronautsPage() {
       <div className="astronauts-page">
         {astronauts.map((astronaut) => (
           <div key={astronaut.id} className="astronaut-card">
-            <h2>{astronaut.id}</h2>
-            <img src={astronaut.image} alt={astronaut.id} />
-            <p>Date of Birth: {astronaut.dob}</p>
-            <p>From: {astronaut.from}</p>
-            <p>Background: {astronaut.background}</p>
-            <p>Details: {astronaut.details}</p>
-            <p>Missions: {astronaut.missions}</p>
-            <img src={astronaut.patch} alt="Mission Patch" />
-            <p>Planet: {astronaut.planet}</p>
+            <img src={`${BASE_URL}${astronaut.image}`} alt={astronaut.id} />
+            <div className="astronaut-info">
+              <h2>{astronaut.astronaut}</h2>
+              <p>Date of Birth: {astronaut.dob}</p>
+              <p>From: {astronaut.from}</p>
+              <p>Background: {astronaut.background}</p>
+              <p>Missions: {astronaut.missions}</p>
+              <p>Destination: {astronaut.planet}</p>
+              <img
+                className="mission-patch"
+                src={`${BASE_URL}${astronaut.patch}`}
+                alt="Mission Patch"
+              />
+            </div>
           </div>
         ))}
       </div>

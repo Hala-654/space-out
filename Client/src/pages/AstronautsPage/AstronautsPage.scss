@@ -6,6 +6,41 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 2rem;
   background-color: $third-bg-color;
+
+  .astronaut-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .astronaut-info {
+      padding: 1rem;
+
+      p {
+        margin: 0.5rem 0;
+        color: $text-color;
+      }
+
+      .mission-patch {
+        width: 50px;
+        height: 50px;
+        margin-top: 1rem;
+      }
+    }
+  }
 }

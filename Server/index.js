@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 
 // get current file path
 const __filename = fileURLToPath(import.meta.url);
@@ -16,11 +16,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 app.use(express.static("data"));
 // Serve the "patches" folder statically
-app.use("/patches", express.static(path.join(__dirname, "data", "patches")));
 app.use(
   "/astronauts",
   express.static(path.join(__dirname, "data", "astronauts"))
 );
+app.use("/patches", express.static(path.join(__dirname, "data", "patches")));
 
 // Middleware for parsing JSON
 app.use(express.json());
