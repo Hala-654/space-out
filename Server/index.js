@@ -8,9 +8,11 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
 
-// get the current file path
+app.use(cors({ origin: "http://localhost:5173" }));
+
+// get current file path
 const __filename = fileURLToPath(import.meta.url);
-// get the directory name of the current file.
+// get directory name of the current file
 const __dirname = path.dirname(__filename);
 app.use(express.static("data"));
 // Serve the "patches" folder statically
@@ -22,7 +24,6 @@ app.use(
 
 // Middleware for parsing JSON
 app.use(express.json());
-app.use(cors());
 
 import missionRoutes from "./routes/missions.js";
 import astronautsRoutes from "./routes/astronauts.js";

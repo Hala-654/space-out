@@ -33,16 +33,4 @@ router.get("/", (req, res) => {
   res.status(200).json(astronautData);
 });
 
-// // Route to get a specific item by ID
-// router.get("/:id", (req, res) => {
-//   const file = readDataFromFile();
-//   const item = file.find((i) => i.id === parseInt(req.params.id));
-
-//   if (item) {
-//     res.status(200).json(item);
-//   } else {
-//     res.status(404).json({ message: "Item not found" });
-//   }
-// });
-
 export default router;
