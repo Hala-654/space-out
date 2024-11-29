@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./HomePage.scss";
 import Header from "../../components/Header/Header";
 
@@ -33,16 +34,9 @@ function HomePage() {
           </div>
           <div className="home__description--light">
             <h2 className="home__subtitle">Mission Collection</h2>
-            <ul className="home__list">
-              <li className="home__list--point">Artemis Program</li>
-              <li className="home__list--point">
-                International Space Station Expeditions
-              </li>
-              <li className="home__list--point">Space Shuttle Missions</li>
-              <li className="home__list--point">
-                Canadian Astronaut Missions (1984-2025)
-              </li>
-            </ul>
+            <Link className="home__missions--link" to="/missions">
+              Canadian Astronaut Missions (1984-2025)
+            </Link>
           </div>
           <div className="home__description">
             <h2 className="home__subtitle">Missions Represented</h2>
