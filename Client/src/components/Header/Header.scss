@@ -68,12 +68,12 @@
       background-color: $pages-bg-color;
       border-radius: 0.5rem;
       width: 100%;
-      height: 1.8rem;
+      height: 3rem;
       text-align: center;
       font-size: 1.7rem;
       @include tablet {
         font-size: 2rem;
-        height: 2.2rem;
+        height: 3.5rem;
       }
       @include desktop {
         font-weight: 500;
