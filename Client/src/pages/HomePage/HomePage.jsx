@@ -24,7 +24,7 @@ function HomePage() {
         <div className="home__content">
           <div className="home__description">
             <h1 className="home__title">Canadian Space Missions Explorer</h1>
-            <h2 className="home__subtitle">Project Overview</h2>
+            <h2 className="home__subtitle--light">Project Overview</h2>
             <p className="home__text">
               Embark on a journey through Canada's remarkable space exploration
               history with our interactive mission archive. This full-stack web
@@ -44,7 +44,7 @@ function HomePage() {
             </div>
           </div>
           <div className="home__description">
-            <h2 className="home__subtitle">Missions Represented</h2>
+            <h2 className="home__subtitle--light">Missions Represented</h2>
             <p className="home__text">
               From Chris Hadfield to Jeremy Hansen, this application chronicles
               Canada's space exploration journey, featuring missions spanning
@@ -55,7 +55,7 @@ function HomePage() {
             <h2 className="home__subtitle">
               Open Science and Data Accessibility
             </h2>
-            <p className="home__text">
+            <p className="home__text--dark">
               The Canadian Space Agency (CSA) is dedicated to open science
               principles, making scientific data and publications freely
               available to researchers, students, industries, and the public.
