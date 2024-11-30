@@ -23,7 +23,7 @@ function HomePage() {
       <div className="home-wrapper">
         <div className="home__content">
           <div className="home__description">
-            <h1 className="home__title">Canadian Space Missions Explorer</h1>
+            <h1 className="home__title">Canadian Space Explorer</h1>
             <h2 className="home__subtitle--light">Project Overview</h2>
             <p className="home__text">
               Embark on a journey through Canada's remarkable space exploration
@@ -33,7 +33,7 @@ function HomePage() {
             </p>
           </div>
           <div className="home__description--light">
-            <h2 className="home__subtitle">Mission Collection</h2>
+            <h2 className="home__subtitle">Canadian Space Collection</h2>
             <div className="home__links">
               <Link className="home__link" to="/missions">
                 Canadian Missions (1984 - 2025)

@@ -99,18 +99,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    list-style-type: none;
+    color: $header-text-color;
+    list-style-type: none;
 
     &--point {
       margin: 0.5rem;
-      padding: 0.5rem 0;
+      padding: 1rem;
       color: $header-text-color;
       transition: background-color 0.3s ease, transform 0.3s ease;
       cursor: pointer;
       background-color: $pages-text-color;
       border-radius: 1rem;
       width: 60%;
-      list-style-type: none;
-      text-decoration: none;
 
       &:hover {
         background-color: rgba(0, 0, 0, 0.05);
