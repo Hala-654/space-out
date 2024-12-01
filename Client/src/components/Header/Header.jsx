@@ -25,11 +25,6 @@ function Header() {
                 Astronauts
               </Link>
             </div>
-            <div className="header__pages">
-              <Link className="header__pages--link" to="/">
-                Collaborations
-              </Link>
-            </div>
           </div>
         </div>
       </nav>
