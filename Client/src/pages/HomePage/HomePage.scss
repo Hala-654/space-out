@@ -2,6 +2,9 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
+a {
+  color: $header-text-color;
+}
 .home-wrapper {
   background-color: $sec-bg-color;
   overflow-x: hidden;
@@ -99,9 +102,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    list-style-type: none;
     color: $header-text-color;
-    list-style-type: none;
 
     &--point {
       margin: 0.5rem;
