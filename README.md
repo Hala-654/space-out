@@ -8,5 +8,6 @@
 
 ## Run
 
-- Start the server: `npm run dev`
+- Start client: `npm run dev`
+- Start server: `node index.js`
 - Access the app at: `http://localhost:5000`
