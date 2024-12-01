@@ -2,15 +2,13 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-a {
-  color: $header-text-color;
-}
 .home-wrapper {
   background-color: $sec-bg-color;
   overflow-x: hidden;
 }
 
 .home {
+  color: $header-text-color;
   &__content {
     background-color: $main-bg-color;
     text-align: center;
@@ -107,7 +105,6 @@ a {
     &--point {
       margin: 0.5rem;
       padding: 1rem;
-      color: $header-text-color;
       transition: background-color 0.3s ease, transform 0.3s ease;
       cursor: pointer;
       background-color: $pages-text-color;

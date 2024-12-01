@@ -45,7 +45,7 @@ function AstronautsPage() {
               <p className="astronaut__details">
                 <strong>Destination:</strong> {astronaut.planet}
               </p>
-              <p className="astronaut__link">
+              <p className="astronaut__link astronaut__link--text">
                 <strong>Learn more: </strong>
                 <a href={astronaut.details} target="_blank">
                   {astronaut.astronaut}
