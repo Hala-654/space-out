@@ -12,7 +12,8 @@
     "vehicle": "SLS rocket and the Orion spacecraft",
     "patch": "/patches/Jeremy-Hansen's-patch-Artemis-II-mission.jpg",
     "duration": false,
-    "planet": "Moon"
+    "planet": "Moon",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/artemis-ii/"
   },
   {
     "id": "2",
@@ -27,7 +28,8 @@
     "vehicle": "Atlas V rocket and the Starliner spacecraft",
     "patch": "/patches/Joshua-Kutryk's-personal-patch-Starliner-1.jpg",
     "duration": false,
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/starliner-1/"
   },
   {
     "id": "3",
@@ -42,7 +44,8 @@
     "vehicle": "Soyuz Spacecraft",
     "patch": "/patches/David-Saint-Jacques-patch-ex58:59.jpg",
     "duration": "204 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/expedition58/"
   },
   {
     "id": "4",
@@ -57,7 +60,8 @@
     "vehicle": "Soyuz Spacecraft",
     "patch": "/patches/chris-hadfield-patch-ex34:35.jpg",
     "duration": "146 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/expedition34-35/"
   },
   {
     "id": "5",
@@ -72,7 +76,8 @@
     "vehicle": "Soyuz Spacecraft",
     "patch": "/patches/Robert-Thirsk-patch-exp20:21.png",
     "duration": "188 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/expedition-20-21.asp"
   },
   {
     "id": "6",
@@ -87,7 +92,8 @@
     "vehicle": "Space Shuttle Endeavour",
     "patch": "/patches/Julie-Payette-sts127-patch.jpg",
     "duration": "16 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-127.asp"
   },
   {
     "id": "7",
@@ -102,7 +108,8 @@
     "vehicle": "Space Shuttle Endeavour",
     "patch": "/patches/Dave-Williams-sts-118-patch.png",
     "duration": "13 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-118.asp"
   },
   {
     "id": "8",
@@ -117,7 +124,8 @@
     "vehicle": "Space Shuttle Atlantis",
     "patch": "/patches/Steve-MacLean-sts-115-patch.png",
     "duration": "12 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-115.asp"
   },
   {
     "id": "9",
@@ -132,7 +140,8 @@
     "vehicle": "Space Shuttle Endeavour",
     "patch": "/patches/Chris-Hadfield-sts-100-patch.png",
     "duration": "12 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-100.asp"
   },
   {
     "id": "10",
@@ -147,7 +156,8 @@
     "vehicle": "Space Shuttle Endeavour",
     "patch": "/patches/Marc-Garneau-sts97-patch.jpg",
     "duration": "11 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-097.asp"
   },
   {
     "id": "11",
@@ -162,7 +172,8 @@
     "vehicle": "Space Shuttle Discovery",
     "patch": "/patches/Julie-Payette-sts-96-patch.png",
     "duration": "10 days",
-    "planet": "ISS"
+    "planet": "ISS",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-096.asp"
   },
   {
     "id": "12",
@@ -177,7 +188,8 @@
     "vehicle": "Space Shuttle Columbia",
     "patch": "/patches/Dave-Williams-sts-090-patch.png",
     "duration": "16 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-090.asp"
   },
   {
     "id": "13",
@@ -192,7 +204,8 @@
     "vehicle": "Space Shuttle Discovery",
     "patch": "/patches/Bjarni-Tryggvason-sts-85-patch.png",
     "duration": "12 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-085.asp"
   },
   {
     "id": "14",
@@ -207,7 +220,8 @@
     "vehicle": "Space Shuttle Columbia",
     "patch": "/patches/Robert0-Thirsk-sts-78-patch.png",
     "duration": "17 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-078.asp"
   },
   {
     "id": "15",
@@ -222,7 +236,8 @@
     "vehicle": "Space Shuttle Endeavour",
     "patch": "/patches/Marc-Garneau-sts77-patch.jpg",
     "duration": "10 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-077.asp"
   },
   {
     "id": "16",
@@ -237,7 +252,8 @@
     "vehicle": "Space Shuttle Atlantis",
     "patch": "/patches/Chris-Hadfield-sts-074-patch.png",
     "duration": "8 days",
-    "planet": "Shuttle-to-Mir"
+    "planet": "Shuttle-to-Mir",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-074.asp"
   },
   {
     "id": "17",
@@ -252,7 +268,8 @@
     "vehicle": "Space Shuttle Columbia",
     "patch": "/patches/Steve-MacLean-sts-052-patch.png",
     "duration": "10 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-052.asp"
   },
   {
     "id": "18",
@@ -267,7 +284,8 @@
     "vehicle": "Space Shuttle Discovery",
     "patch": "/patches/Roberta-Bondar-sts-42-patch.png",
     "duration": "8 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-042.asp"
   },
   {
     "id": "19",
@@ -282,6 +300,7 @@
     "vehicle": "Space Shuttle Challenger",
     "patch": "/patches/Marc-Garneau-sts-41G-patch.png",
     "duration": "8 days",
-    "planet": "Earth orbit"
+    "planet": "Earth orbit",
+    "mission_details": "https://www.asc-csa.gc.ca/eng/missions/sts-041g.asp"
   }
 ]
