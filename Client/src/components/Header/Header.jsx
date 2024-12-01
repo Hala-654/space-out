@@ -33,9 +33,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      <div className="header__background">
-        <div className="header__background--text">Let your freak flag fly</div>
-      </div>
+      <div className="header__background"></div>
     </header>
   );
 }
