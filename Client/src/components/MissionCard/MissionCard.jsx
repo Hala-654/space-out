@@ -17,12 +17,17 @@ function MissionCard({ mission }) {
           </div>
         </div>
         <div className="card__content">
-          <img
-            className="card__content--patch"
-            src={`${BASE_URL}${mission.image}`}
-            alt={`${mission.title} patch`}
-          />
-          <p className="card__content--astronaut">{mission.astronaut}</p>
+          <a href={mission.details} target="_blank">
+            <img
+              className="card__content--patch"
+              src={`${BASE_URL}${mission.image}`}
+              alt={`${mission.title} patch`}
+            />
+          </a>
+
+          <p className="card__content--astronaut">
+            <strong>Astronaut:</strong> <br /> {mission.astronaut}
+          </p>
         </div>
       </div>
     </div>
