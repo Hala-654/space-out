@@ -48,12 +48,13 @@
     color: $header-text-color;
     font-weight: 400;
     font-size: 2.5rem;
+    opacity: 75%;
     @include tablet {
       font-size: 3rem;
     }
   }
   &__pages {
-    margin: 1rem;
+    margin: 0 1rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
