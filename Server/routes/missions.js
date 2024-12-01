@@ -20,6 +20,7 @@ router.get("/", (req, res) => {
     launch: mission.launch,
     astronaut: mission.astronaut,
     image: mission.patch,
+    details: mission.mission_details,
   }));
 
   console.log("Sending response:", nextMission);
