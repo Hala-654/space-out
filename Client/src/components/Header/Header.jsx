@@ -25,12 +25,15 @@ function Header() {
                 Astronauts
               </Link>
             </div>
+            <div className="header__pages">
+              <Link className="header__pages--link" to="/">
+                Collaborations
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
-      <div className="header__background">
-        <div className="header__background--text">Let your freak flag fly</div>
-      </div>
+      <div className="header__background"></div>
     </header>
   );
 }

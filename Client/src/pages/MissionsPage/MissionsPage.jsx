@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import MissionCard from "../../components/MissionCard/MissionCard";
 import React, { useState, useEffect } from "react";
 
@@ -24,6 +25,7 @@ function MissionsPage() {
           <MissionCard key={mission.id} mission={mission} />
         ))}
       </div>
+      <Footer />
     </>
   );
 }
