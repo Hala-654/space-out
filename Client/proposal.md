@@ -41,21 +41,13 @@ As a user:
 
 ### APIs
 
-- No external APIs will be used for the first and second sprints. Data will be sourced from the Canadian Space Agency's open-source library and other internal resources.
+- No external APIs will be used for this project. Data will be sourced from the Canadian Space Agency's open-source library and other internal resources.
 
 ### Sitemap
 
 - Home Page: Navigation to other pages, hero images, and cards to showcase missions
-- Collboration page: Details of Canada’s collaborations with NASA and other space agencies, with links to specific mission pages.
-- Card page: Displays information about each mission, including mission title, dates, participating agencies, astronauts involved, and mission outcomes.
-
-### Mockups
-
-Provide visuals of your app's screens. You can use pictures of hand-drawn sketches, or wireframing tools like Figma.
-
-### Data
-
-Describe your data and the relationships between the data points. You can show this visually using diagrams, or write it out.
+- Mission Page: Displays information about each mission, including mission title, launch date, astronauts involved, and mission patch.
+- Astronaut Page: Display list of canadian astronauts, their information, and their missions' patch.
 
 ### Endpoints
 
@@ -108,7 +100,7 @@ Describe your data and the relationships between the data points. You can show t
 - GET/astronauts: list of Canadian astronauts
 
   [
-  
+
   {
 
   "id": 1,
@@ -122,7 +114,7 @@ Describe your data and the relationships between the data points. You can show t
   "mission": Artemis II
 
   },
-  
+
   {
 
   "id": 2,
@@ -141,35 +133,13 @@ Describe your data and the relationships between the data points. You can show t
 
   ]
 
-- POST/comments: Add a comment to a specific mission
-
-[
-
-{
-
-"id": 1
-
-"name":
-
-"comment":
-
-"date":
-
-}
-
-...
-
-]
-
-
 ## Roadmap
 
 - Client/Frontend:
   - Initialize the React project with basic routes and boilerplate pages
-  - Create the main pages: Home, mission overview (card), collaboration, and astronauts profiles.
+  - Create the main pages: Home, mission overview (card), and astronauts profiles.
 - Server/Backend:
   - Set up the Express backend with placeholder data for missions and astronauts
-- Implement user comment functionality on mission pages.
 - Ensure responsiveness
 - Bug fixes
 - Demo day
