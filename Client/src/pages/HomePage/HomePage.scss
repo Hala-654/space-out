@@ -38,6 +38,9 @@
     color: $header-text-color;
     margin-bottom: 2rem;
     font-family: $header-font-family;
+    @include tablet {
+      font-size: 1.8rem;
+    }
     @include desktop {
       font-size: 2.5rem;
     }
@@ -49,10 +52,10 @@
     font-family: $header-font-family;
     font-weight: 400;
     @include tablet {
-      font-size: 2.2rem;
+      font-size: 1.5rem;
     }
     @include desktop {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &--light {
       color: $header-text-color;
@@ -61,10 +64,10 @@
       font-weight: 400;
       margin-bottom: 1rem;
       @include tablet {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
       }
       @include desktop {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     }
   }
@@ -74,22 +77,22 @@
     color: $pages-bg-color;
     text-align: left;
     @include tablet {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     @include desktop {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
     &--dark {
       font-size: 0.9rem;
       line-height: 1.6;
       color: $main-bg-color;
       text-align: left;
-      // margin: 0 0rem 1rem 1rem;
       @include tablet {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin: 0 5rem 3rem 5rem;
       }
       @include desktop {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
     }
   }
@@ -116,11 +119,11 @@
         transform: translateX(0.3125rem);
       }
       @include tablet {
-        font-size: 1.4rem;
-        max-width: 58%;
+        font-size: 1.2rem;
+        max-width: 80%;
       }
       @include desktop {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         width: 50%;
       }
     }
@@ -146,7 +149,12 @@
       transform: translateX(0.3125rem);
     }
     @include tablet {
+      font-size: 1.2rem;
+      width: 80%;
+    }
+    @include desktop {
       font-size: 1.5rem;
+      width: 50%;
     }
   }
 }

@@ -13,10 +13,16 @@
   padding: 1rem;
   &--credits {
     padding: 1rem;
+    @include desktop {
+      font-size: 1.5rem;
+    }
   }
   &--light {
     opacity: 25%;
     font-family: $header-font-family;
+    @include desktop {
+      font-size: 1.5rem;
+    }
   }
   @include desktop {
     height: 10rem;
