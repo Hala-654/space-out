@@ -68,7 +68,7 @@ function HomePage() {
                   href="https://donnees-data.asc-csa.gc.ca/dataset/?project=atmospheric_sci"
                   target="_blank"
                 >
-                  Atmospheric sciences
+                  Atmospheric Sciences
                 </a>
               </li>
               <li className="home__list--point">
@@ -76,7 +76,7 @@ function HomePage() {
                   href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_environment"
                   target="_blank"
                 >
-                  Space environment/Space weather
+                  Space Environment/Space Weather
                 </a>
               </li>
               <li className="home__list--point">
@@ -84,7 +84,7 @@ function HomePage() {
                   href="https://donnees-data.asc-csa.gc.ca/dataset/?project=earth_observation"
                   target="_blank"
                 >
-                  Earth observation
+                  Earth Observation
                 </a>
               </li>
               <li className="home__list--point">
@@ -92,7 +92,7 @@ function HomePage() {
                   href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_astronomy"
                   target="_blank"
                 >
-                  Space astronomy
+                  Space Astronomy
                 </a>
               </li>
               <li className="home__list--point">
@@ -100,7 +100,7 @@ function HomePage() {
                   href="https://donnees-data.asc-csa.gc.ca/dataset/?project=space_exploration"
                   target="_blank"
                 >
-                  Space exploration
+                  Space Exploration
                 </a>
               </li>
             </ul>
