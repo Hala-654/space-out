@@ -42,6 +42,10 @@ function HomePage() {
               <Link className="home__link" to="/astronauts">
                 Canadian Astronauts
               </Link>
+              <p>
+                Please allow for the contents to load after clicking the links
+                above for at least one minute!
+              </p>
             </div>
           </div>
           <div className="home__description">
