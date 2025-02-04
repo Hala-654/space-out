@@ -60,9 +60,12 @@
     justify-content: flex-end;
     align-items: baseline;
     width: 100%;
+    gap: 0.5rem;
+    @include tablet {
+      gap: 1rem;
+    }
     @include desktop {
       width: 55%;
-      gap: 1rem;
     }
     &--link {
       color: $pages-text-color;
