@@ -15,16 +15,16 @@ function Header() {
             </div>
           </div>
           <div className="header__pages">
-            <div className="header__pages">
-              <Link className="header__pages--link" to="/missions">
-                Missions
-              </Link>
-            </div>
-            <div className="header__pages">
-              <Link className="header__pages--link" to="/astronauts">
-                Astronauts
-              </Link>
-            </div>
+            {/* <div className="header__pages"> */}
+            <Link className="header__pages--link" to="/missions">
+              Missions
+            </Link>
+            {/* </div> */}
+            {/* <div className="header__pages"> */}
+            <Link className="header__pages--link" to="/astronauts">
+              Astronauts
+            </Link>
+            {/* </div> */}
           </div>
         </div>
       </nav>
